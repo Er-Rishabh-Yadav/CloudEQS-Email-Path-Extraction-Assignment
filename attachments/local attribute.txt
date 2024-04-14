@@ -1,0 +1,9 @@
+1. data type = chart , input type = iframe 
+no boooleans field allowed and no default value allowed
+2. data type = table , input type = table
+no booleans field allowed and no default value allowed
+3. input control type value should be fixed to Textfield except for character,chart,table data type
+4. It should not take dropdown options if the data type is other than single select and multi select
+5. It should not take derived formula except if the isDerived is true
+
+	

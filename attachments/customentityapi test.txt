@@ -1,0 +1,10 @@
+Templates Api or Custom entity api
+
+1. get all custom entity api should give 400 and validation message if the entityType other than ModelAssociation or ModelInventory
+2. on success Post custom entity api There should be proper respone that contains "entity_name", "entity_type","entity_id","success_msg"
+3. When associations field not passed in a payload than it should give 400 and there should be proper message . Data should not create but now it will created
+4. when sections list field not passed in a payload than it should give 400 and there should be proper message . 
+
+
+Rule checklist
+field error
